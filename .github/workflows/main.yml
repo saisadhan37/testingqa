@@ -15,7 +15,7 @@ jobs:
           with:
             aws-access-key-id: AKIAR5E5PCV5JIA7EA7W
             aws-secret-access-key: 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
-            aws-region: us-west-2
+            aws-region: us-east-1
 
         - name: AWS CodeGuru Reviewer Scanner
           uses: aws-actions/codeguru-reviewer@v1.1

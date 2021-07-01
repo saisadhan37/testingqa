@@ -13,8 +13,8 @@ jobs:
           uses: aws-actions/configure-aws-credentials@v1
           if: ${{ always() }} # This ensures that your workflow runs successfully
           with:
-            aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-            aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+            aws-access-key-id: AKIAR5E5PCV5JIA7EA7W
+            aws-secret-access-key: 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
             aws-region: us-west-2
 
         - name: AWS CodeGuru Reviewer Scanner

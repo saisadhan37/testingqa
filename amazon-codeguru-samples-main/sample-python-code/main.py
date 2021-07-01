@@ -15,7 +15,7 @@ def lambda_handler(source_region, destination_region, credentials):
                              aws_session_token=credentials['SessionToken'])
     process_kinesis(kinesis, "some_file_path.txt")
 
-    # Get SNS Topic ARNs
+    
     CLIENT_NAME = 'sns'
     for region in [source_region, destination_region]:
         sns = session.client(CLIENT_NAME, region_name=region, aws_access_key_id=credentials,

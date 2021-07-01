@@ -47,7 +47,7 @@ public class Main {
 
     // Bad
     static AWSCredentials getCreds(String id, String key) {
-        return new BasicAWSCredentials(id, key);
+        return new BasicAWSCredentials(id, key); # provide creds
     }
 
     // Good

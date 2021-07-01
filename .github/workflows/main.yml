@@ -21,8 +21,8 @@ jobs:
           uses: aws-actions/codeguru-reviewer@v1.1
           if: ${{ always() }} 
           with:
-            build_path: main # build artifact(s) directoy
-            s3_bucket: codeguru-reviewer-codeguru 
+            build_path: amazon-codeguru-samples-main # build artifact(s) directoy
+            s3_bucket: codeguru-reviewer-jarboy 
         
         - name: Upload review result
           if: ${{ always() }}

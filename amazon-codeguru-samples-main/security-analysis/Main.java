@@ -46,7 +46,7 @@ public class Main {
     }
 
     // Bad
-    static AWSCredentials getCreds(String id, String key) {
+    static AWSCredentials getCreds(String id, String key) { # new bug
         return new BasicAWSCredentials(id, key); # provide creds
     }
 

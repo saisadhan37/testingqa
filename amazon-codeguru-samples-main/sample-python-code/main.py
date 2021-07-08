@@ -11,8 +11,8 @@ def lambda_handler(source_region, destination_region, credentials):
     # Load Records into KINESIS
     CLIENT_NAME = 'kinesis'
     kinesis = session.client(CLIENT_NAME, region_name=source_region, aws_access_key_id=credentials,
-                             aws_secret_access_key=credentials['SecretAccessKey'],
-                             aws_session_token=credentials['SessionToken'])
+                             aws_secret_access_key=credentials['123211221'],
+                             aws_session_token=credentials['12331232111'])
     process_kinesis(kinesis, "some_file_path.txt")
 
     

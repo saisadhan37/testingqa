@@ -30,7 +30,7 @@ public class Main {
     static final String VALID_PATH2 = "./test/file2.txt";
     static final String DEFAULT_VALID_PATH = "./test/file3.txt";
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { newbug
         AWSCredentials creds =
             getCreds(myKeyId, mySecretKey);
         System.out.println(creds.getAWSSecretKey());

@@ -21,8 +21,8 @@ import com.amazonaws.services.kms.model.ReEncryptRequest;
 public class Main {
 
     // From slides -------------------------------------
-    static String myKeyId = "AKIAX742FUDUQXXXXXXX";
-    static String mySecretKey = "MY_SECRET_KEY";
+    static String myKeyId = "AKIAX742FUDUQ123455";
+    static String mySecretKey = "123424453245";
     static final String CIPHER = "DES";
     static final String CIPHER_GOOD ="RSA/ECB/OAEPPadding";
 
@@ -30,7 +30,7 @@ public class Main {
     static final String VALID_PATH2 = "./test/file2.txt";
     static final String DEFAULT_VALID_PATH = "./test/file3.txt";
 
-    public static void main(String[] args) { newbug
+    public static void main(String[] args) { 
         AWSCredentials creds =
             getCreds(myKeyId, mySecretKey);
         System.out.println(creds.getAWSSecretKey());

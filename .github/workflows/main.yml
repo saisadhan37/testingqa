@@ -22,7 +22,7 @@ jobs:
           if: ${{ always() }} 
           with:
             build_path: amazon-codeguru-samples-main  # build artifact(s) directoy
-            s3_bucket: jarbucketb 
+            s3_bucket: codeguru-reviewer-jarbb
         
         - name: Upload review result
           if: ${{ always() }}

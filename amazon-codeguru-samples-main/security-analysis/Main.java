@@ -2,7 +2,7 @@
 import javax.crypto.Cipher;
 import javax.crypto.NoSuchPaddingException;
 import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequestnewone;
+import javax.servlet.http.HttpServletRequestnewonenew one;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
